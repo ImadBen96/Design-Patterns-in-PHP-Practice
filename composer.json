@@ -6,5 +6,12 @@
             "name": "Imad Gannoun"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "10.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational"
+        }
+    }
 }

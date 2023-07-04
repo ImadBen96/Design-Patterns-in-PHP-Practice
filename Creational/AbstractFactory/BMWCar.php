@@ -9,7 +9,7 @@ class BMWCar implements CarInterface
 
     public function __construct($price)
     {
-        $this->price =$price;
+        $this->price = $price;
     }
 
     public function calculatePrice()
