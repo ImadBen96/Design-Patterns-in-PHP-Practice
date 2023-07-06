@@ -4,8 +4,62 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "547fcd315cf7a0b8d18927d5d926debc",
+    "content-hash": "31679bffa488a4f5b8a66201b5b94d60",
     "packages": [
+        {
+            "name": "imad-gn/basic-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "BasicAuthLib",
+                "reference": "740a9b48c97549c9d92571febb718b409518bd33"
+            },
+            "type": "no",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuth\\": "BasicAuth"
+                }
+            },
+            "license": [
+                "no"
+            ],
+            "authors": [
+                {
+                    "name": "imad gannoun"
+                }
+            ],
+            "description": "test lib for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "imad-gn/token-auth-lib",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "TokenAuthLib",
+                "reference": "e5234b8e1d593b80aa47d31c6a1d22100521361f"
+            },
+            "type": "no",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "TokenAuth"
+                }
+            },
+            "license": [
+                "no"
+            ],
+            "authors": [
+                {
+                    "name": "imad gannoun"
+                }
+            ],
+            "description": "test lib for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "myclabs/deep-copy",
             "version": "1.11.1",
@@ -1617,7 +1671,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "imad-gn/basic-auth-lib": 20,
+        "imad-gn/token-auth-lib": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -2,11 +2,13 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Creational" isTestSource="false" packagePrefix="Creational\" />
-      <sourceFolder url="file://$MODULE_DIR$/Structural" isTestSource="false" packagePrefix="Structural\" />
+      <sourceFolder url="file://$MODULE_DIR$/BasicAuthLib/BasicAuth" isTestSource="false" packagePrefix="BasicAuth\" />
+      <sourceFolder url="file://$MODULE_DIR$/TokenAuthLib/TokenAuth" isTestSource="false" packagePrefix="TokenAuth\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/basic-auth-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/token-auth-lib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phar-io/manifest" />

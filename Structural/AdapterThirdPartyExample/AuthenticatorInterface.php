@@ -1,7 +1,7 @@
 <?php
 
 namespace Structural\AdapterThirdPartyExample;
-
+use BasicAuth\BasicAuthenticator;
 interface AuthenticatorInterface
 {
 

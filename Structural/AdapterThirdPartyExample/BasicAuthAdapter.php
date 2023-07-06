@@ -2,6 +2,8 @@
 
 namespace Structural\AdapterThirdPartyExample;
 
+use BasicAuth\BasicAuthenticator;
+
 class BasicAuthAdapter implements AuthenticatorInterface
 {
     /**
