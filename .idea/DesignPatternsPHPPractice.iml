@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/TokenAuthLib/TokenAuth" isTestSource="false" packagePrefix="TokenAuth\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Behavioral" isTestSource="false" packagePrefix="Behavioral\" />
+      <sourceFolder url="file://$MODULE_DIR$/Creational" isTestSource="false" packagePrefix="Creational\" />
+      <sourceFolder url="file://$MODULE_DIR$/Structural" isTestSource="false" packagePrefix="Structural\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/basic-auth-lib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/token-auth-lib" />
