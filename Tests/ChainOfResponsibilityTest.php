@@ -17,7 +17,8 @@ class ChainOfResponsibilityTest extends \PHPUnit\Framework\TestCase
         $ali->setNext($afaf->setNext($mohsen));
         $request = new Request();
         $request->setId(4);
-        /**@var Request $reponse
+        /**
+         * @var Request $reponse
          */
         $response =  $ali->handle($request);
 

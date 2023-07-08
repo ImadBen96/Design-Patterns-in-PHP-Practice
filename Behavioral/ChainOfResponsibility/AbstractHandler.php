@@ -18,6 +18,7 @@ abstract class AbstractHandler implements HandlerInterface
     {
         if ($this->nextHandler)
         {
+            // AFAF handle($request)
             return $this->nextHandler->handle($request);
         }
         return  $request;
