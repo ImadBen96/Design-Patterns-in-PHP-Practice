@@ -3,10 +3,9 @@
 namespace Behavioral\Iterator;
 
 use IteratorAggregate;
+
 class EgyptCitiesCollection implements IteratorAggregate
 {
-
-
     private $egyptCities = [];
 
     public function addCity(City $city)
@@ -48,5 +47,4 @@ class EgyptCitiesCollection implements IteratorAggregate
     {
         return new AreaIterator($this);
     }
-
 }

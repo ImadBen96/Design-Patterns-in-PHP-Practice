@@ -2,7 +2,7 @@
 
 namespace Behavioral\Iterator;
 
-class EvenIterator implements Iterator
+class EvenIterator implements \Iterator
 {
 
     /**

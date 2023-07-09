@@ -14,6 +14,8 @@ class IteratorTestV2 extends  \PHPUnit\Framework\TestCase
         $bookList->addBook(new Book('Clean Code', 'Robert C. Martin'));
 
         $books = [];
+        var_dump($bookList);
+        ob_flush();
 
         foreach ($bookList as $book) {
             $books[] = $book->getAuthorAndTitle();
