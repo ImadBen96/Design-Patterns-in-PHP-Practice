@@ -1,4 +1,4 @@
-name: b uild
+name: build
 
 on:
   push:
