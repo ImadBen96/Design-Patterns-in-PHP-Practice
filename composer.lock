@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d485462a8fd5976ac5dc02bc1e52259",
+    "content-hash": "46cfa9bf1ee63c886b2508020d62f8bf",
     "packages": [
         {
             "name": "imad-gn/basic-auth-lib",
