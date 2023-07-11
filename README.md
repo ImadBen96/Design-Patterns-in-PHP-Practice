@@ -1,6 +1,20 @@
-"# Design-Patterns-in-PHP-Practice" 
- #Abstract Factory
-    Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
-    In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. Each generated factory can give the objects as per the Factory pattern.<br/>
- #Builder Design Pattern
- #Factory Method
+# Design Patterns in PHP course
+GitHub build Status
+![](https://github.com/RamyHakam/DesignPatternsCourse//workflows/build/badge.svg)
+
+Travis Build Status
+![](https://app.travis-ci.com/RamyHakam/DesignPatternsCourse.svg?branch=master)
+
+
+Complete code examples for  all the design patterns in php course By Ramy Hakam
+
+# How code is organized!
+
+- Every type of the design patterns  is grouped in a dirctory with the type name
+- The Test directory for all the code tests
+
+# Installation
+
+`composer install`
+
+`vendor/bin/phpunit Tests`

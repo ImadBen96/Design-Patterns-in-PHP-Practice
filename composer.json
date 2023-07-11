@@ -1,6 +1,7 @@
 {
     "name": "imad-gn/design-patterns-php-practice",
     "description": "Design Patterns Php Pracrics",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Imad Gannoun"
@@ -8,8 +9,8 @@
     ],
     "require": {
         "phpunit/phpunit": "10.2.3",
-        "imad-gn/basic-auth-lib": "*@dev",
-        "imad-gn/token-auth-lib": "*@dev"
+        "imad-gn/basic-auth-lib": "dev-master",
+        "imad-gn/token-auth-lib": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -18,6 +19,9 @@
             "Behavioral\\": "Behavioral",
             "Others\\": "Others"
         }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
     },
     "repositories": [
         {
@@ -28,5 +32,6 @@
             "type": "path",
             "url": "TokenAuthLib"
         }
-    ]
+    ],
+    "license": ["MIT"]
 }
