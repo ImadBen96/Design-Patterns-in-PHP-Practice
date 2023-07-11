@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "10.*",
+        "phpunit/phpunit": "^10.2",
         "imad-gn/basic-auth-lib": "dev-main",
         "imad-gn/token-auth-lib": "dev-main"
     },
