@@ -1,7 +1,6 @@
 {
     "name": "imad-gn/design-patterns-php-practice",
     "description": "Design Patterns Php Pracrics",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Imad Gannoun"
