@@ -9,8 +9,8 @@
     ],
     "require": {
         "phpunit/phpunit": "10.*",
-        "imad-gn/basic-auth-lib": "dev-main",
-        "imad-gn/token-auth-lib": "dev-main"
+        "imad-gn/basic-auth-lib": "*@dev",
+        "imad-gn/token-auth-lib": "*@dev"
     },
     "autoload": {
         "psr-4": {
