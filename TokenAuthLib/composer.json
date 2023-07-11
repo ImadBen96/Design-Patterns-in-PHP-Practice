@@ -1,8 +1,7 @@
 {
     "name": "imad-gn/token-auth-lib",
     "description": "test lib for adapter",
-    "type": "no",
-    "license": "no",
+    "type": "library",
     "authors": [
         {
             "name": "imad gannoun"

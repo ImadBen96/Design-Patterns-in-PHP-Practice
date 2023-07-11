@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Creational" isTestSource="false" packagePrefix="Creational\" />
       <sourceFolder url="file://$MODULE_DIR$/Structural" isTestSource="false" packagePrefix="Structural\" />
       <sourceFolder url="file://$MODULE_DIR$/Others" isTestSource="false" packagePrefix="Others\" />
+      <sourceFolder url="file://$MODULE_DIR$/Tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/basic-auth-lib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/imad-gn/token-auth-lib" />

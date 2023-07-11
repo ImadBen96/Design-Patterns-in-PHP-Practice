@@ -12,17 +12,14 @@
             "dist": {
                 "type": "path",
                 "url": "BasicAuthLib",
-                "reference": "740a9b48c97549c9d92571febb718b409518bd33"
+                "reference": "ef7347794a4a45ea42d80aa1c11214f1234e3777"
             },
-            "type": "no",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "BasicAuth\\": "BasicAuth"
                 }
             },
-            "license": [
-                "no"
-            ],
             "authors": [
                 {
                     "name": "imad gannoun"
@@ -39,17 +36,14 @@
             "dist": {
                 "type": "path",
                 "url": "TokenAuthLib",
-                "reference": "e5234b8e1d593b80aa47d31c6a1d22100521361f"
+                "reference": "1b996ec7be705752768c12a5bde1f5c56536203c"
             },
-            "type": "no",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "TokenAuth\\": "TokenAuth"
                 }
             },
-            "license": [
-                "no"
-            ],
             "authors": [
                 {
                     "name": "imad gannoun"
