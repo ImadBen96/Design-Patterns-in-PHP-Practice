@@ -1,4 +1,4 @@
-# Design Patterns in PHP course
+# Design Patterns in PHP 
 GitHub build Status
 ![](https://github.com/RamyHakam/DesignPatternsCourse//workflows/build/badge.svg)
 
